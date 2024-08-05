@@ -10,8 +10,6 @@ target 'example' do
     :hermes_enabled => false
   )
 
-  pod 'react-native-health', :path => '../node_modules/react-native-health'
-
   target 'exampleTests' do
     inherit! :complete
   end
