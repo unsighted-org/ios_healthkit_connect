@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1AB2E6412D1DF41700B11E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB2E6262D1DF41400B11E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB2E62D2D1DF41400B11E49;
+			remoteInfo = IBiome;
+		};
+		1AB2E64B2D1DF41700B11E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB2E6262D1DF41400B11E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB2E62D2D1DF41400B11E49;
+			remoteInfo = IBiome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB2E62E2D1DF41400B11E49 /* IBiome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBiome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB2E6402D1DF41700B11E49 /* IBiomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBiomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB2E64A2D1DF41700B11E49 /* IBiomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBiomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1AB2E67A2D1DF86200B11E49 /* Exceptions for "IBiome" folder in "IBiome" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1AB2E62D2D1DF41400B11E49 /* IBiome */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1AB2E6302D1DF41400B11E49 /* IBiome */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1AB2E67A2D1DF86200B11E49 /* Exceptions for "IBiome" folder in "IBiome" target */,
+			);
+			path = IBiome;
+			sourceTree = "<group>";
+		};
+		1AB2E6432D1DF41700B11E49 /* IBiomeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IBiomeTests;
+			sourceTree = "<group>";
+		};
+		1AB2E64D2D1DF41700B11E49 /* IBiomeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IBiomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB2E62B2D1DF41400B11E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2E63D2D1DF41700B11E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2E6472D1DF41700B11E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB2E6252D1DF41400B11E49 = {
+			isa = PBXGroup;
+			children = (
+				1AB2E6302D1DF41400B11E49 /* IBiome */,
+				1AB2E6432D1DF41700B11E49 /* IBiomeTests */,
+				1AB2E64D2D1DF41700B11E49 /* IBiomeUITests */,
+				1AB2E62F2D1DF41400B11E49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB2E62F2D1DF41400B11E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB2E62E2D1DF41400B11E49 /* IBiome.app */,
+				1AB2E6402D1DF41700B11E49 /* IBiomeTests.xctest */,
+				1AB2E64A2D1DF41700B11E49 /* IBiomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB2E62D2D1DF41400B11E49 /* IBiome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB2E6542D1DF41700B11E49 /* Build configuration list for PBXNativeTarget "IBiome" */;
+			buildPhases = (
+				1AB2E62A2D1DF41400B11E49 /* Sources */,
+				1AB2E62B2D1DF41400B11E49 /* Frameworks */,
+				1AB2E62C2D1DF41400B11E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1AB2E6302D1DF41400B11E49 /* IBiome */,
+			);
+			name = IBiome;
+			packageProductDependencies = (
+			);
+			productName = IBiome;
+			productReference = 1AB2E62E2D1DF41400B11E49 /* IBiome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB2E63F2D1DF41700B11E49 /* IBiomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB2E6572D1DF41700B11E49 /* Build configuration list for PBXNativeTarget "IBiomeTests" */;
+			buildPhases = (
+				1AB2E63C2D1DF41700B11E49 /* Sources */,
+				1AB2E63D2D1DF41700B11E49 /* Frameworks */,
+				1AB2E63E2D1DF41700B11E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB2E6422D1DF41700B11E49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AB2E6432D1DF41700B11E49 /* IBiomeTests */,
+			);
+			name = IBiomeTests;
+			packageProductDependencies = (
+			);
+			productName = IBiomeTests;
+			productReference = 1AB2E6402D1DF41700B11E49 /* IBiomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AB2E6492D1DF41700B11E49 /* IBiomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB2E65A2D1DF41700B11E49 /* Build configuration list for PBXNativeTarget "IBiomeUITests" */;
+			buildPhases = (
+				1AB2E6462D1DF41700B11E49 /* Sources */,
+				1AB2E6472D1DF41700B11E49 /* Frameworks */,
+				1AB2E6482D1DF41700B11E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB2E64C2D1DF41700B11E49 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AB2E64D2D1DF41700B11E49 /* IBiomeUITests */,
+			);
+			name = IBiomeUITests;
+			packageProductDependencies = (
+			);
+			productName = IBiomeUITests;
+			productReference = 1AB2E64A2D1DF41700B11E49 /* IBiomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB2E6262D1DF41400B11E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1AB2E62D2D1DF41400B11E49 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1AB2E63F2D1DF41700B11E49 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1AB2E62D2D1DF41400B11E49;
+					};
+					1AB2E6492D1DF41700B11E49 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1AB2E62D2D1DF41400B11E49;
+					};
+				};
+			};
+			buildConfigurationList = 1AB2E6292D1DF41400B11E49 /* Build configuration list for PBXProject "IBiome" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB2E6252D1DF41400B11E49;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1AB2E62F2D1DF41400B11E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB2E62D2D1DF41400B11E49 /* IBiome */,
+				1AB2E63F2D1DF41700B11E49 /* IBiomeTests */,
+				1AB2E6492D1DF41700B11E49 /* IBiomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB2E62C2D1DF41400B11E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2E63E2D1DF41700B11E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2E6482D1DF41700B11E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB2E62A2D1DF41400B11E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2E63C2D1DF41700B11E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB2E6462D1DF41700B11E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB2E6422D1DF41700B11E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB2E62D2D1DF41400B11E49 /* IBiome */;
+			targetProxy = 1AB2E6412D1DF41700B11E49 /* PBXContainerItemProxy */;
+		};
+		1AB2E64C2D1DF41700B11E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB2E62D2D1DF41400B11E49 /* IBiome */;
+			targetProxy = 1AB2E64B2D1DF41700B11E49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AB2E6522D1DF41700B11E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AB2E6532D1DF41700B11E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB2E6552D1DF41700B11E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IBiome/IBiome.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IBiome/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MDU6DDVKV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "\"IBiome needs access to health records to provide comprehensive health tracking\"";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"IBiome needs access to your health data to track your fitness and health metrics\"";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "\"IBiome needs permission to save health data to provide you with accurate health tracking\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PerceptiveFocusInc.IBiome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB2E6562D1DF41700B11E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IBiome/IBiome.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IBiome/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MDU6DDVKV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "\"IBiome needs access to health records to provide comprehensive health tracking\"";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"IBiome needs access to your health data to track your fitness and health metrics\"";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "\"IBiome needs permission to save health data to provide you with accurate health tracking\"";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PerceptiveFocusInc.IBiome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AB2E6582D1DF41700B11E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MDU6DDVKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PerceptiveFocusInc.IBiomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBiome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IBiome";
+			};
+			name = Debug;
+		};
+		1AB2E6592D1DF41700B11E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MDU6DDVKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PerceptiveFocusInc.IBiomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBiome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IBiome";
+			};
+			name = Release;
+		};
+		1AB2E65B2D1DF41700B11E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MDU6DDVKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PerceptiveFocusInc.IBiomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IBiome;
+			};
+			name = Debug;
+		};
+		1AB2E65C2D1DF41700B11E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MDU6DDVKV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = PerceptiveFocusInc.IBiomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IBiome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB2E6292D1DF41400B11E49 /* Build configuration list for PBXProject "IBiome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2E6522D1DF41700B11E49 /* Debug */,
+				1AB2E6532D1DF41700B11E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB2E6542D1DF41700B11E49 /* Build configuration list for PBXNativeTarget "IBiome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2E6552D1DF41700B11E49 /* Debug */,
+				1AB2E6562D1DF41700B11E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB2E6572D1DF41700B11E49 /* Build configuration list for PBXNativeTarget "IBiomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2E6582D1DF41700B11E49 /* Debug */,
+				1AB2E6592D1DF41700B11E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB2E65A2D1DF41700B11E49 /* Build configuration list for PBXNativeTarget "IBiomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB2E65B2D1DF41700B11E49 /* Debug */,
+				1AB2E65C2D1DF41700B11E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AB2E6262D1DF41400B11E49 /* Project object */;
+}
